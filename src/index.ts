@@ -1,3 +1,3 @@
-import TestUIComponent from "./TestUIComponent";
+import GlobalTopHeader from "./lib/modules/GlobalTopHeader/GlobalTopHeader";
 
-export { TestUIComponent };
+export { GlobalTopHeader };

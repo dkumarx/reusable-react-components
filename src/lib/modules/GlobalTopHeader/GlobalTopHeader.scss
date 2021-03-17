@@ -1,15 +1,15 @@
 .test-component {
     background-color: white;
     border: 1px solid black;
-    padding: 16px;
-    width: 360px;
-    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    text-align: left;
     
     .heading {
-        font-size: 64px;
+        font-size: 3rem;
     }
 
-    &.test-component-secondary {
+    &.test-component-dark {
         background-color: black;
         color: white;
     }
