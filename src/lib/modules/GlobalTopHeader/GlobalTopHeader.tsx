@@ -4,17 +4,17 @@ import { TopHeaderUIModuleProps } from "./GlobalTopHeader.types";
 import "./GlobalTopHeader.scss";
 
 
-const TopHeaderUIModule: React.FC<TopHeaderUIModuleProps> = (props, { theme }) => (
+const TopHeaderUIModule: React.FC<TopHeaderUIModuleProps> = (props) => (
   <header
-    data-testid="test-component"
-    className={`test-component test-component-${theme}`}
+    data-testid="header"
+    className={`header header--${props.theme}`}
   >
     <div className="logo">
     <h1 className="heading">Header level 1 placeholder</h1>
     <h2>Top header level 2 placeholder</h2></div>
-    <div className="app-switcher">
+    {props.children ? <div className="app-switcher">
       {props.children}
-    </div>
+    </div> : null}
   </header>
 );
 

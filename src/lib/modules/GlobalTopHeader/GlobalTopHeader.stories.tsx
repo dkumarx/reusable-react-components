@@ -5,6 +5,6 @@ export default {
   title: "Global Header Module",
 };
 
-export const Light = () => <TopHeaderUIModule theme="light">Button</TopHeaderUIModule>;
+export const LightTheme = () => <TopHeaderUIModule theme="light">Button</TopHeaderUIModule>;
 
-export const Dark = () => <TopHeaderUIModule theme="dark">Button2</TopHeaderUIModule>;
+export const DarkTheme = () => <TopHeaderUIModule theme="dark">Button2</TopHeaderUIModule>;
