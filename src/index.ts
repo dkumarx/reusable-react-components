@@ -1,3 +1,4 @@
-import GlobalTopHeader from "./lib/modules/GlobalTopHeader/GlobalTopHeader";
+import TestComponent from "./lib/Button";
+import GlobalTopHeader from "./lib/GlobalTopHeader";
 
-export { GlobalTopHeader };
+export { GlobalTopHeader, TestComponent };
