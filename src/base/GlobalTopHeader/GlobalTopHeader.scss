@@ -1,0 +1,18 @@
+@import "../../variables.scss";
+@import "../../typography.scss";
+
+.header {
+    background-color: $primary;
+    border: 1px solid $secondary;
+    padding: 2rem;
+    width: 100%;
+    text-align: left;
+    color: $white;
+    .heading {
+        font-size: 3rem;
+    }
+
+    &.header--dark {
+        background-color: $secondary;
+    }
+}

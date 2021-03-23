@@ -1,4 +1,5 @@
-import TestComponent from "./lib/Button";
-import GlobalTopHeader from "./lib/GlobalTopHeader";
+/* Export all base components */
+import * as base from "./base";
+import * as components from "./components";
 
-export { GlobalTopHeader, TestComponent };
+export { base, components };
